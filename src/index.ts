@@ -35,7 +35,7 @@ async function run() {
     file.save();
 
     await exec('git config --global user.name automatic-version-bump');
-    await exec('git config --global user.email wawa27.pro@gmail.com');
+    await exec('git config --global user.email dev@aquarima.com');
     await exec('git add package.json');
     await exec('git pull');
     // Update last commit instead a creating a new commit
